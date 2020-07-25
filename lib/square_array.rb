@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  array_squared = []
+  
+ array.length.times do|index|
+  array_squared.push(array[index] ** 2)
+  
+end
+array_squared
+
 end
