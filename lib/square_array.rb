@@ -6,6 +6,6 @@ def square_array(array)
   
 end
 
-array.map {P
+array.map {|element| element ** 2}
   array_squared
 end
