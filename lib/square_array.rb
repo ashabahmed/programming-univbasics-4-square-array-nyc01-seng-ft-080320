@@ -5,5 +5,7 @@ def square_array(array)
   array_squared.push(array[index] ** 2)
   
 end
+
+array.map {P
   array_squared
 end
